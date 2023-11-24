@@ -1,15 +1,16 @@
 import Image from "next/image";
+import StripedBackground from "./StripedBackground";
 
 export default function Hero(): JSX.Element {
   return (
     <div className="flex flex-row items-center justify-between mt-4">
-      <div className="w-1/2 pt-8 bg-white/80 backdrop-blur-md z-10">
+      <div className="w-1/2 pt-8 z-10 backdrop-blur-md">
         <h1 className="text-7xl font-extrabold slate-800">
           The <span className="font-black text-primary">innovative</span>{" "}
           solution to design
           <span className="font-black text-primary">.</span>
         </h1>
-        <p className="w-[28rem] pt-2 text-lg font-light text-slate-400">
+        <p className="w-[28rem] pt-5 text-lg font-light text-slate-400">
           Our solution entails a{" "}
           <span className="font-semibold text-slate-500">comprehensive</span>{" "}
           database, and an{" "}
