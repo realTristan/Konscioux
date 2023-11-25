@@ -14,7 +14,7 @@ export default function Navbar() {
           priority={true}
         />
 
-        <h1 className="text-4xl font-black slate-900">
+        <h1 className="text-4xl font-black text-slate-900">
           Konscioux&nbsp;<span className="text-primary">.</span>
         </h1>
       </div>
@@ -34,7 +34,7 @@ export default function Navbar() {
         </Link>
         <Link
           href="/login"
-          className="text-base font-medium bg-slate-900 px-8 py-3 text-white shadow-xl hover:bg-primary hover:shadow-none"
+          className="bg-slate-900 px-8 py-3 text-base font-medium text-white shadow-xl hover:bg-primary hover:shadow-none"
         >
           Sign in
         </Link>
