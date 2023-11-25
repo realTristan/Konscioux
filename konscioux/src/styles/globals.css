@@ -2,13 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-.stripes {
-  height: 100vh;
+.stripes-white-45 {
   background: repeating-linear-gradient(
     45deg,
     #ffffff 0px,
     #ffffff 30px,
     #f8fafc 30px,
     #f8fafc 270px
+  );
+}
+
+.stripes-white-135 {
+  background: repeating-linear-gradient(
+    135deg,
+    #ffffff 0px,
+    #ffffff 30px,
+    #f8fafc 30px,
+    #f8fafc 270px
+  );
+}
+
+.stripes-slate-dark-135 {
+  background: repeating-linear-gradient(
+    135deg,
+    #1f2937 0px,
+    #1f2937 30px,
+    #111827 30px,
+    #111827 270px
   );
 }

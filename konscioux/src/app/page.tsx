@@ -1,25 +1,20 @@
 "use client";
 
 import Hero from "@/components/Hero";
+import Enactus from "@/components/Enactus";
 import Navbar from "@/components/Navbar";
-import StripedBackground from "@/components/StripedBackground";
-import { heroOnScroll } from "@/utils/heroOnScroll";
-import Image from "next/image";
-import { useEffect } from "react";
+import { StripedBackgroundWhite45 } from "@/components/StripedBackground";
 
 export default function Home() {
-  /* Add the onscroll event listener
-  useEffect(() => {
-    window.addEventListener("scroll", heroOnScroll);
-  });*/
-
   return (
     <>
       <Navbar />
-      <StripedBackground />
+      <StripedBackgroundWhite45 />
 
       <main className="flex min-h-screen flex-col items-center justify-between p-24">
         <Hero />
+        {/*<span className="h-24 bg-slate-900 stripes-slate-dark-135 w-screen"></span>*/}
+        <Enactus />
 
         {/* Temporary div */}
         <div className="h-[1500px]"></div>

@@ -3,18 +3,18 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="fixed z-50 flex w-screen flex-row items-center justify-between border-b-2 border-slate-50 bg-white px-8 py-3">
+    <nav className="fixed z-50 flex w-screen flex-row items-center justify-between bg-white px-8 py-3">
       <div className="flex flex-row items-center space-x-6">
         <Image
-          src="/images/logo_temp.png"
+          src="/images/enactus-logo-solo.png"
           alt="logo"
           width={100}
           height={100}
-          className="cursor-pointer hover:brightness-[97%]"
+          className="cursor-pointer"
           priority={true}
         />
 
-        <h1 className="text-4xl font-black slate-800">
+        <h1 className="text-4xl font-black slate-900">
           Konscioux&nbsp;<span className="text-primary">.</span>
         </h1>
       </div>
@@ -34,7 +34,7 @@ export default function Navbar() {
         </Link>
         <Link
           href="/login"
-          className="text-base font-medium bg-slate-800 px-8 py-3 text-white shadow-xl hover:bg-slate-900"
+          className="text-base font-medium bg-slate-900 px-8 py-3 text-white shadow-xl hover:bg-primary hover:shadow-none"
         >
           Sign in
         </Link>
