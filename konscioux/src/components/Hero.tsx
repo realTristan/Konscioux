@@ -4,7 +4,7 @@ import StripedBackground from "./StripedBackground";
 export default function Hero(): JSX.Element {
   return (
     <div className="flex flex-row items-center justify-between mt-4">
-      <div className="w-1/2 pt-8 z-10 backdrop-blur-md">
+      <div className="pt-8 z-10 backdrop-blur-lg w-full">
         <h1 className="text-7xl font-extrabold slate-800">
           The <span className="font-black text-primary">innovative</span>{" "}
           solution to design
@@ -20,7 +20,7 @@ export default function Hero(): JSX.Element {
           <span className="font-semibold text-slate-500">sustainable</span>{" "}
           brands.
         </p>
-        <button className="mt-6 rounded-lg bg-slate-800 px-8 py-4 font-semibold tracking-wider text-white shadow-xl hover:bg-slate-900">
+        <button className="mt-6 bg-slate-800 px-8 py-4 font-semibold tracking-wider text-white shadow-xl hover:bg-slate-900">
           Get Started
         </button>
       </div>
