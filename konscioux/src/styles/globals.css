@@ -13,10 +13,12 @@ html {
 
 ::selection {
   background: #fffcf1;
+  color: black;
 }
 
 ::-moz-selection {
   background: #fffcf1;
+  color: black;
 }
 
 .stripes-white-45 {
