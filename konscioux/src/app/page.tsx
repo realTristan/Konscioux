@@ -7,6 +7,9 @@ import About from "@/components/About";
 import Bottom from "@/components/Bottom";
 import CustomCusor, { activateCustomCursor } from "@/components/CustomCursor";
 import Businesses from "@/components/Businesses";
+import Blog from "@/components/Blog";
+import Contact from "@/components/Contact";
+import SaveTheDate from "@/components/SaveTheDate";
 
 export default function Home() {
   return (
@@ -16,16 +19,11 @@ export default function Home() {
 
       <main className="flex min-h-screen w-screen flex-col items-center justify-between pt-24">
         <Hero />
-        <Enactus />
+        <SaveTheDate />
         <Businesses />
-        <div className="stripes-slate-dark-135 flex h-full w-screen flex-col items-center justify-center gap-2 bg-black px-20 py-10">
-          <h1 className="text-center text-9xl font-semibold tracking-wider text-white">
-            SAVE THE DATE<span className="text-primary">.</span>
-          </h1>
-          <p className="text-center text-xl font-normal tracking-widest text-white">
-            LAUNCHING 2024
-          </p>
-        </div>
+        <Enactus />
+        <Blog />
+        <Contact />
         <About />
 
         <Bottom />

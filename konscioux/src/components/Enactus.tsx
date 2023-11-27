@@ -18,7 +18,7 @@ export default function Enactus(): JSX.Element {
           alt="logo"
           width={200}
           height={100}
-          className="cursor-pointer pt-12"
+          className="cursor-pointer pt-14"
           priority={true}
         />
       </div>

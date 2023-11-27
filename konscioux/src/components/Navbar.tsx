@@ -20,36 +20,36 @@ export default function Navbar() {
       </div>
 
       <div className="flex flex-row items-center space-x-3">
-        <Link
+        <a
           href="/"
           className="btn cursor-pointer px-5 py-3 text-base hover:bg-slate-50"
         >
           Home
-        </Link>
-        <a
-          href="#about"
-          className="btn cursor-pointer px-5 py-3 text-base hover:bg-slate-50"
-        >
-          About us
         </a>
-        <Link
-          href="/contact"
-          className="btn cursor-pointer px-5 py-3 text-base hover:bg-slate-50"
-        >
-          Our Blog
-        </Link>
         <a
           href="#businesses"
           className="btn cursor-pointer px-5 py-3 text-base hover:bg-slate-50"
         >
           Businesses
         </a>
-        <Link
-          href="/contact"
+        <a
+          href="#blog"
+          className="btn cursor-pointer px-5 py-3 text-base hover:bg-slate-50"
+        >
+          Our Blog
+        </a>
+        <a
+          href="#contact"
           className="btn cursor-pointer px-5 py-3 text-base hover:bg-slate-50"
         >
           Contact
-        </Link>
+        </a>
+        <a
+          href="#about"
+          className="btn cursor-pointer px-5 py-3 text-base hover:bg-slate-50"
+        >
+          About us
+        </a>
         <Link
           href="/login"
           className="btn bg-black px-8 py-3 text-base font-medium text-white shadow-xl hover:bg-secondary hover:text-black hover:shadow-none"

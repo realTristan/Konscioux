@@ -8,10 +8,10 @@ export default function Team(): JSX.Element {
 
       <div className="z-50 flex h-full w-screen flex-col items-center justify-center gap-14 p-20">
         <div className="flex flex-col items-center justify-center gap-7">
-          <h1 className="text-center text-7xl font-extrabold tracking-wide text-black">
-            MEET THE TEAM
+          <h1 className="mb-3 text-center text-8xl font-semibold tracking-wider text-black">
+            MEET THE TEAM<span className="text-primary">.</span>
           </h1>
-          <span className="h-1 w-80 bg-primary"></span>
+          <span className="h-1.5 w-80 rounded-full bg-primary"></span>
         </div>
         <div className="flex flex-wrap items-center justify-center gap-10">
           <Member
@@ -47,7 +47,7 @@ interface MemberProps {
 
 function Member(props: MemberProps): JSX.Element {
   return (
-    <div className="flex flex-col items-center justify-center gap-2 text-center">
+    <div className="flex flex-col items-center justify-center gap-2 p-4 text-center hover:bg-slate-100">
       <Image
         src={props.image}
         alt="..."
