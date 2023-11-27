@@ -1,2 +1,6 @@
 # Konscioux
-<img width="1196" alt="Screenshot_2023-11-25_at_1 10 28_AM" src="https://github.com/realTristan/Konscioux/assets/75189508/cc7452c6-2279-4c48-bf0d-b7b37c6da7f3">
+<img width="1335" alt="Screenshot 2023-11-27 at 2 55 50 PM" src="https://github.com/realTristan/Konscioux/assets/75189508/2e87961a-dab8-4fd6-819b-2d6ccc750352">
+
+
+https://github.com/realTristan/Konscioux/assets/75189508/8430e87d-837f-4f28-87a4-7d5dc88ce2ee
+
