@@ -6,35 +6,53 @@ export default function Navbar() {
     <nav className="fixed z-50 flex w-screen flex-row items-center justify-between bg-white px-8 py-3">
       <div className="flex flex-row items-center space-x-6">
         <Image
-          src="/images/enactus-logo-solo.png"
+          src="/images/konsioux-logo-nobg-1.png"
           alt="logo"
           width={100}
           height={100}
-          className="cursor-pointer"
+          className="btn ml-7 scale-150 cursor-pointer"
           priority={true}
         />
 
-        <h1 className="text-4xl font-black text-slate-900">
+        {/*<h1 className="text-4xl font-black text-black">
           Konscioux&nbsp;<span className="text-primary">.</span>
-        </h1>
+        </h1>*/}
       </div>
 
       <div className="flex flex-row items-center space-x-3">
         <Link
           href="/"
-          className="cursor-pointer px-5 py-3 text-base hover:bg-slate-50"
+          className="btn cursor-pointer px-5 py-3 text-base hover:bg-slate-50"
         >
           Home
         </Link>
+        <a
+          href="#about"
+          className="btn cursor-pointer px-5 py-3 text-base hover:bg-slate-50"
+        >
+          About us
+        </a>
         <Link
           href="/contact"
-          className="cursor-pointer px-5 py-3 text-base hover:bg-slate-50"
+          className="btn cursor-pointer px-5 py-3 text-base hover:bg-slate-50"
+        >
+          Our Blog
+        </Link>
+        <a
+          href="#businesses"
+          className="btn cursor-pointer px-5 py-3 text-base hover:bg-slate-50"
+        >
+          Businesses
+        </a>
+        <Link
+          href="/contact"
+          className="btn cursor-pointer px-5 py-3 text-base hover:bg-slate-50"
         >
           Contact
         </Link>
         <Link
           href="/login"
-          className="bg-slate-900 px-8 py-3 text-base font-medium text-white shadow-xl hover:bg-primary hover:shadow-none"
+          className="btn bg-black px-8 py-3 text-base font-medium text-white shadow-xl hover:bg-secondary hover:text-black hover:shadow-none"
         >
           Sign in
         </Link>

@@ -7,6 +7,18 @@ body {
   overflow-y: scroll;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: #fffcf1;
+}
+
+::-moz-selection {
+  background: #fffcf1;
+}
+
 .stripes-white-45 {
   background: repeating-linear-gradient(
     45deg,
@@ -30,10 +42,10 @@ body {
 .stripes-slate-dark-135 {
   background: repeating-linear-gradient(
     135deg,
-    #141b28 0px,
-    #141b28 30px,
-    #111827 30px,
-    #111827 270px
+    #0d111a 0px,
+    #0d111a 30px,
+    black 30px,
+    black 270px
   );
 }
 

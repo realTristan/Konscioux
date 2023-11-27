@@ -3,14 +3,16 @@ import { StripedBackgroundWhite45 } from "./StripedBackground";
 
 export default function Team(): JSX.Element {
   return (
-    <div className="relative">
+    <div className="relative" id="about">
       <StripedBackgroundWhite45 />
 
       <div className="z-50 flex h-full w-screen flex-col items-center justify-center gap-14 p-20">
-        <h1 className="text-center text-6xl font-black text-slate-900">
-          Meet the Team&nbsp;<span className="text-primary">.</span>
-        </h1>
-
+        <div className="flex flex-col items-center justify-center gap-7">
+          <h1 className="text-center text-7xl font-extrabold tracking-wide text-black">
+            MEET THE TEAM
+          </h1>
+          <span className="h-1 w-80 bg-primary"></span>
+        </div>
         <div className="flex flex-wrap items-center justify-center gap-10">
           <Member
             name="Amy Alfred"
@@ -54,11 +56,9 @@ function Member(props: MemberProps): JSX.Element {
         className="w-60 rounded-full object-cover"
         priority={true}
       />
-      <h3 className="text-2xl font-bold text-slate-900">{props.name}</h3>
-      <p className="text-lg font-light text-slate-900">{props.role}</p>
-      <p className="text-sm font-light text-slate-900 underline">
-        {props.contact}
-      </p>
+      <h3 className="text-2xl font-bold text-black">{props.name}</h3>
+      <p className="text-lg font-light text-black">{props.role}</p>
+      <p className="text-sm font-light text-black underline">{props.contact}</p>
     </div>
   );
 }
