@@ -21,38 +21,38 @@ export default function Navbar() {
 
       <div className="flex flex-row items-center space-x-3">
         <a
-          href="/"
+          href="/#"
           className="btn cursor-pointer px-5 py-3 text-base hover:bg-slate-50"
         >
           Home
         </a>
         <a
-          href="#businesses"
+          href="/#businesses"
           className="btn cursor-pointer px-5 py-3 text-base hover:bg-slate-50"
         >
           Businesses
         </a>
         <a
-          href="#blog"
+          href="/#blog"
           className="btn cursor-pointer px-5 py-3 text-base hover:bg-slate-50"
         >
           Our Blog
         </a>
         <a
-          href="#contact"
+          href="/#contact"
           className="btn cursor-pointer px-5 py-3 text-base hover:bg-slate-50"
         >
           Contact
         </a>
-        <a
-          href="#about"
+        <Link
+          href="/about/#"
           className="btn cursor-pointer px-5 py-3 text-base hover:bg-slate-50"
         >
           About us
-        </a>
+        </Link>
         <Link
           href="/login"
-          className="btn bg-black px-8 py-3 text-base font-medium text-white shadow-xl hover:bg-secondary hover:text-black hover:shadow-none"
+          className="btn bg-black px-8 py-4 text-base font-normal tracking-wide text-white shadow-xl hover:bg-secondary hover:text-black hover:shadow-none"
         >
           Sign in
         </Link>

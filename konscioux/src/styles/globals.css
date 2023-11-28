@@ -24,20 +24,20 @@ html {
 .stripes-white-45 {
   background: repeating-linear-gradient(
     45deg,
-    #ffffff 0px,
-    #ffffff 30px,
-    #f8fafc 30px,
-    #f8fafc 270px
+    rgba(255, 255, 255, 0.8) 0px,
+    rgba(255, 255, 255, 0.8) 30px,
+    rgba(248, 250, 252, 0.8) 30px,
+    rgba(248, 250, 252, 0.8) 270px
   );
 }
 
 .stripes-white-135 {
   background: repeating-linear-gradient(
     135deg,
-    #ffffff 0px,
-    #ffffff 30px,
-    #f8fafc 30px,
-    #f8fafc 270px
+    rgba(255, 255, 255, 0.8) 0px,
+    rgba(255, 255, 255, 0.8) 30px,
+    rgba(248, 250, 252, 0.8) 30px,
+    rgba(248, 250, 252, 0.8) 270px
   );
 }
 

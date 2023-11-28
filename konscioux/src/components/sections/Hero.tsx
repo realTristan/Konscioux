@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { useEffect } from "react";
-import { StripedBackgroundWhite45Animated } from "./StripedBackground";
 
 export default function Hero(): JSX.Element {
   useEffect(() => {
@@ -8,27 +7,26 @@ export default function Hero(): JSX.Element {
   }, []);
 
   return (
-    <div className="relative">
-      <StripedBackgroundWhite45Animated />
-
-      <div className="group mb-24 mt-10 flex flex-row items-center justify-between px-20">
-        <div className="z-10 w-full pt-8">
-          <h1 className="black text-7xl font-light">
-            THE <span className="font-extrabold text-primary">INNOVATIVE</span>{" "}
-            SOLUTION TO DESIGN
-            <span className="font-black text-primary">.</span>
+    <div>
+      <span className="stripes-slide-down stripes-white-45 absolute -z-10 h-screen w-screen"></span>
+      <div className="flex flex-row items-center justify-between px-20 pb-16 pt-14">
+        <div className="z-10 w-full">
+          <h1 className="black w-11/12 text-7xl font-light">
+            Welcome to the Ecosystem
+            <span className="font-semibold text-primary">.</span>
           </h1>
           <p className="w-[28rem] pt-5 text-lg font-light text-slate-500">
-            Our solution entails a{" "}
-            <span className="font-semibold text-slate-500">comprehensive</span>{" "}
-            database, and an{" "}
-            <span className="font-semibold text-slate-500">intuitive</span> app
-            that harmoniously connects consumers with local{" "}
-            <span className="font-semibold text-slate-500">ethical</span> and{" "}
-            <span className="font-semibold text-slate-500">sustainable</span>{" "}
-            brands.
+            Connecting{" "}
+            <span className="font-medium text-slate-500">
+              conscious consumers
+            </span>{" "}
+            with{" "}
+            <span className="font-medium text-slate-500">
+              conscious local brands
+            </span>
+            .
           </p>
-          <button className="btn mt-6 bg-black px-8 py-4 font-semibold tracking-wider text-white shadow-xl hover:bg-secondary hover:text-black hover:shadow-none">
+          <button className="btn mt-6 bg-black px-8 py-4 font-normal tracking-wider text-white shadow-xl hover:bg-secondary hover:text-black hover:shadow-none">
             Get Started
           </button>
         </div>
@@ -47,10 +45,6 @@ export default function Hero(): JSX.Element {
 
 // when the mouse hovers over the image, the image will lean towards the mouse
 function leanToMouse() {
-  // get the image
-  const image = document.querySelector(".image-lean") as HTMLImageElement;
-
-  // add event listener
   document.addEventListener("mousemove", (e) => {
     // get the image
     const image = document.querySelector(".image-lean") as HTMLImageElement;
